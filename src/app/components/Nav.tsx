@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Nav = () => {
@@ -45,13 +46,16 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">Kiddo Alert</a>
         </div>
 
         <div className="navbar-center text-white hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <a>About</a>
             </li>
             <li tabIndex={0}>
               <details>

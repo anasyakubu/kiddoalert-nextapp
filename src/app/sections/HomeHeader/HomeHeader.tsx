@@ -8,19 +8,17 @@ const HomeHeader = () => {
   return (
     <div className="HomeHeader">
       <Nav />
-      <div className="lg:px-8">
+      <div className="lg:px-3">
         <div className="pl-20 sm:py-48 lg:py-56 ">
           <div className="text">
             <div className="space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
               <div className="">
-                <h3 className="font-semibold text-gray-500">
-                  Hi, Im Anas Yakubu a
-                </h3>
-                <h1 className="text-xl mt-3 font-bold tracking-wide text-black shadow-2 sm:text-4xl">
+                <h3 className="font-semibold text-gray-300">Welcome to</h3>
+                <h1 className="text-xl mt-3 font-bold tracking-wide text-white shadow-2 sm:text-4xl">
                   <span>&lt;</span>
-                  Developer /<span>&gt;</span>
+                  Kiddo Alert /<span>&gt;</span>
                 </h1>
-                <p className="mt-3 text-lg leading-8 text-gray-900">
+                <p className="mt-3 text-lg leading-8 text-gray-200">
                   A Frontend React and JavaScript Developer who likes to work
                   remotely from Home to provide a high functional frontend Apps.
                 </p>
