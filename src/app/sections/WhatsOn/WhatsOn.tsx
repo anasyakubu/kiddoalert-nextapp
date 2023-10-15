@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import Logo from "../../../../public/logo-small.png";
 
 const WhatsOn = () => {
   return (
@@ -13,16 +15,16 @@ const WhatsOn = () => {
             assumenda blanditiis sed? Nihil accusamus reprehenderit officiis
             dolores aliquam itaque. A facilis aspernatur necessitatibus,
             sapiente saepe aliquid autem iste commodi! Laudantium mollitia
-            distinctio eius sit modi? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Eveniet dolores sapiente voluptate. Reprehenderit,
-            mollitia sequi! Iure rem illum sint sunt!
+            distinctio eius sit modi? Lorem
           </p>
         </div>
         <div className="text-center">
           <div className="mockup-phone">
             <div className="camera"></div>
             <div className="display">
-              <div className="artboard artboard-demo phone-1">Hi.</div>
+              <div className="artboard artboard-demo phone-1">
+                <Image className="w-24" src={Logo} alt="Logo" />
+              </div>
             </div>
           </div>
         </div>
