@@ -1,0 +1,25 @@
+.HomeHeader {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.3)), url(../../../../public/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 150vh;
+}
+
+@media (max-width: 600px) {
+  .HomeHeader {
+    .text {
+      margin-top: 30%;
+
+      .ImgMe {
+        width: 300px;
+      }
+    }
+    .pl-20 {
+      // padding-left: 5%;
+      padding-left: 3%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
