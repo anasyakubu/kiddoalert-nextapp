@@ -1,22 +1,30 @@
 .HomeHeader {
-  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.3)), url(../../../../public/bg-1.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
+.phoneImg {
+  animation: move 2s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+
+  // to {
+  //   transform: translateY(0px) scale(1.03);
+  // }
+}
 }
 
 @media (max-width: 600px) {
   .HomeHeader {
     .text {
-      margin-top: 30%;
+      margin-top: 5%;
 
       .ImgMe {
         width: 300px;
       }
     }
-    .pl-20 {
-      padding-left: 3%;
+    .pl-10 {
+      padding-left: 2%;
       background-size: cover;
       background-position: center;
     }

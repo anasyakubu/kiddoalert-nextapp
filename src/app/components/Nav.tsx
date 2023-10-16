@@ -4,7 +4,7 @@ import React from "react";
 const Nav = () => {
   return (
     <div>
-      <div className="navbar bg-transparent text-white">
+      <div className="navbar bg-transparent" style={{ color: "#122231" }}>
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,7 +25,7 @@ const Nav = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-black"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-white"
             >
               <li>
                 <a>Item 1</a>
@@ -49,7 +49,10 @@ const Nav = () => {
           <a className="btn btn-ghost normal-case text-xl">Kiddo Alert</a>
         </div>
 
-        <div className="navbar-center text-white hidden lg:flex">
+        <div
+          className="navbar-center hidden lg:flex"
+          style={{ color: "#122231" }}
+        >
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link href="/">Home</Link>
@@ -60,7 +63,7 @@ const Nav = () => {
             <li tabIndex={0}>
               <details>
                 <summary>Parent</summary>
-                <ul className="p-2 bg-black">
+                <ul className="p-2 bg-white">
                   <li>
                     <a>Submenu 1</a>
                   </li>
