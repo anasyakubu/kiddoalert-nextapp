@@ -3,6 +3,7 @@ import Nav from "../../components/Nav";
 import "./HomeHeader.scss";
 import Image from "next/image";
 import Logo from "../../../../public/logo-small.png";
+//import { Fade } from "react-awesome-reveal";
 
 // #f2f7f8 bg
 // #3d4f60 text
@@ -15,7 +16,7 @@ const HomeHeader = () => {
       <Nav />
       <div className="lg:px-8">
         <div className="p-10 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
-          <div className="pl-10 max-w-xl py-24 sm:py-48 lg:py-56 ">
+          <div className="pl-3 max-w-xl py-24 sm:py-48 lg:py-56 ">
             <div className="text">
               <h1
                 className="text-xl font-extrabold tracking-wide shadow-2 sm:text-4xl"
@@ -44,6 +45,7 @@ const HomeHeader = () => {
             </div>
           </div>
 
+          {/* <Fade direction="left"> */}
           <div className="text-center">
             <div className="mockup-phone phoneImg">
               <div className="camera"></div>
@@ -54,6 +56,7 @@ const HomeHeader = () => {
               </div>
             </div>
           </div>
+          {/* </Fade> */}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import "./Priority.scss";
+import { FaArrowRight, FaLock } from "react-icons/fa";
 
 const Priority = () => {
   return (
@@ -10,8 +11,13 @@ const Priority = () => {
     >
       <div className="p-10">
         <div className="flex">
-          <div className="m-5">
-            <h1>ICON</h1>
+          <div
+            className="m-5 bg-white p-10 rounded-lg shadow-sm  text-center"
+            style={{ color: "#122231" }}
+          >
+            <h1 className="text-3xl">
+              <FaLock />
+            </h1>
           </div>
           <div className="m-5">
             <h3 className="font-bold text-xl" style={{ color: "#122231" }}>
@@ -27,11 +33,12 @@ const Priority = () => {
             </p>
             <div className="mt-5">
               <Link
-                className="font-bold text-md hover:underline"
+                className="flex font-bold text-md hover:underline"
                 style={{ color: "#122231" }}
                 href="/"
               >
-                More on our security measures
+                <FaArrowRight />
+                <span className="ml-5">More on our security measures</span>
               </Link>
             </div>
           </div>
