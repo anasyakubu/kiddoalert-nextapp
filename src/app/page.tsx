@@ -6,6 +6,7 @@ import Diverse from './sections/Diverse/Diverse'
 import HowItWorks from './sections/HowItWorks/HowItWorks'
 import Join from './sections/Join/Join'
 import Trusted from './sections/Trusted/Trusted'
+import Footer from './sections/Footer/Footer'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <HowItWorks />
       <Join />
       <Trusted />
+      <Footer />
     </div>
   )
 }
