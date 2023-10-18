@@ -1,0 +1,19 @@
+// .Diverse {}
+
+@media (max-width: 600px) {
+  .Diverse {
+    .p-10 {
+      padding: 2%;
+
+      .cardContainer {
+        .p-10 {
+          padding: 3%;
+        }
+      }
+
+      .m-10{
+        margin: 2%;
+      }
+    }
+  }
+}

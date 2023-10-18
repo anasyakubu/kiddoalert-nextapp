@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react'
 import './GoalsCard.scss'
 
 interface cardsProps {
-  titleStyle: any;
-  title: string;
-  text: string;
+  titleStyle: any
+  title: string
+  text: string
 }
 
 const GoalsCard = (props: cardsProps) => {
-  const { title, text } = props;
+  const { title, text } = props
   return (
     <div className="GoalsCard">
       <div
@@ -16,16 +16,16 @@ const GoalsCard = (props: cardsProps) => {
         // style={{ height: "2rem", width: "auto" }}
       >
         <h2
-          className="text-3xl font-semibold text-left"
+          className="text-3xl font-semibold text-left text-blue-500"
           // style={{ color: "{titleStyle}" }}
-          style={{ color: "#122231" }}
+          // style={{ color: "#122231" }}
         >
           {title}
         </h2>
         <p className="mt-20 text-left">{text}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default GoalsCard;
+export default GoalsCard
