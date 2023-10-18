@@ -4,6 +4,8 @@ import Priority from './sections/Priority/Priority'
 import Goals from './sections/Goals/Goals'
 import Diverse from './sections/Diverse/Diverse'
 import HowItWorks from './sections/HowItWorks/HowItWorks'
+import Join from './sections/Join/Join'
+import Trusted from './sections/Trusted/Trusted'
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <Goals />
       <Diverse />
       <HowItWorks />
+      <Join />
+      <Trusted />
     </div>
   )
 }
