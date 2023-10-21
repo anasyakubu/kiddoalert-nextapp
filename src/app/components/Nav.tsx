@@ -14,9 +14,12 @@ const Nav = () => {
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-white">
               <li>
-                <a>Item 1</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
+                <Link href="/">About</Link>
+              </li>
+              {/* <li>
                 <a>Parent</a>
                 <ul className="p-2">
                   <li>
@@ -26,9 +29,12 @@ const Nav = () => {
                     <a>Submenu 2</a>
                   </li>
                 </ul>
+              </li> */}
+              <li>
+                <Link href="/stories">Stories</Link>
               </li>
               <li>
-                <a>Item 3</a>
+                <Link href="/">Secured</Link>
               </li>
             </ul>
           </div>
@@ -43,7 +49,7 @@ const Nav = () => {
             <li>
               <Link href="/">About</Link>
             </li>
-            <li tabIndex={0}>
+            {/* <li tabIndex={0}>
               <details>
                 <summary>Parent</summary>
                 <ul className="p-2 bg-white">
@@ -55,9 +61,12 @@ const Nav = () => {
                   </li>
                 </ul>
               </details>
-            </li>
+            </li> */}
             <li>
               <Link href="/stories">Stories</Link>
+            </li>
+            <li>
+              <Link href="/stories">Secured</Link>
             </li>
           </ul>
         </div>

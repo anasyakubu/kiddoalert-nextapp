@@ -27,7 +27,7 @@ const StoriesHeader = () => {
 
             {/* <Fade direction="left"> */}
             <div className="text-center flex justify-center items-center">
-              <Image className="rounded-xl shadow-lg" src={IMG} alt="" />
+              <Image className="rounded-2xl shadow-lg" src={IMG} alt="" />
             </div>
             {/* </Fade> */}
           </div>
