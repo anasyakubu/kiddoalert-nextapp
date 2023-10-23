@@ -33,7 +33,7 @@ const HomeHeader = () => {
           <div className="text-center">
             <div className="mockup-phone phoneImg">
               <div className="camera"></div>
-              <div className="display">
+              <div className="display bg-white">
                 <div className="artboard artboard-demo phone-1">
                   <Image className="w-24" src={Logo} alt="Logo" />
                 </div>
